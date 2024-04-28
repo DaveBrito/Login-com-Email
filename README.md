@@ -2,17 +2,21 @@
 
 Projeto tem o objetivo do usuário criar uma conta, trocar sua senha e adicionar um novo usuário.
 
+Sendo feito e designado para a disciplina de `Programação para Dispositivos Moveis I` , com orientações do professor  
+`Paulo Rogerio da Silva`.
+
 # Ferramenta
 
-- Usadoo Android Studio para desenvolvimento,mais a implementação do Firebase para autenticação.
+- Usado o Android Studio para desenvolvimento
+- Implementação do [Firebase](https://firebase.google.com/?hl=pt-br) para autenticação com a conta.
 
-# Possíveis Problemas
-- Como no Android Studio não temos a função `run gradle signingReport`, é necessário ativar pelo terminal.
+# Possíveis Problemas no Desenvolvimento
+- Como no Android Studio não temos a função `run gradle signingReport`, na atual versão, 2023.2.1, é necessário ativar pelo terminal o comando.
 
 ```bash
 ./gradlew signingReport
 ```
-Posterimente, escreva novamente mas com o mouse em cima, aperte `Ctrl` + `Enter` que irá funcionar para conseguir o `SHA1`.
+Será exibido um erro sobre o comando, posteriomente escreva-o novamente mas com o mouse em cima, aperte `Ctrl` + `Enter` que irá funcionar para conseguir o `SHA1`.
 
 ```bash
 > Task :app:signingReport
